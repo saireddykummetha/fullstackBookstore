@@ -14,7 +14,7 @@ function App() {
  
   useEffect(()=>{
     (async()=>{
-      const res=await fetch('http://localhost:8080/product')
+      const res=await fetch('https://bookstore-7bu0.onrender.com')
       const resdata=await res.json()
       console.log(resdata)
       dispatch(setDataproduct(resdata))
