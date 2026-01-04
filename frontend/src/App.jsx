@@ -14,7 +14,7 @@ function App() {
  
   useEffect(()=>{
     (async()=>{
-      const res=await fetch('https://bookstore-2txs.onrender.com')
+      const res=await fetch('https://bookstore-2txs.onrender.com/product')
       const resdata=await res.json()
       console.log(resdata)
       dispatch(setDataproduct(resdata))
