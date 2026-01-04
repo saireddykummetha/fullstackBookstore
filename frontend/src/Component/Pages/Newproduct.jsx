@@ -41,7 +41,7 @@ const Newproduct = () => {
     const {name,image,category,price}=data
 
    if(name && image && category && price){
-    const fetchData=await fetch('https://fullstackbookstore-3.onrender.com',{
+    const fetchData=await fetch('https://bookstore-2txs.onrender.com',{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
