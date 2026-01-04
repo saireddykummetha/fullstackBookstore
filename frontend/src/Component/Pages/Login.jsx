@@ -46,7 +46,7 @@ const Login = () => {
   }
 
   try {
-    const fetchData = await fetch('https://bookstore-7bu0.onrender.com',{
+    const fetchData = await fetch('https://fullstackbookstore-3.onrender.com',{
       method : "post",
       headers : {
         "content-type" : "application/json"
