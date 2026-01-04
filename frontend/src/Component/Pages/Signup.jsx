@@ -49,7 +49,7 @@ const Signup = () => {
   const {firstName,email,password,confirmpassword}=data
   if(firstName && email && password && confirmpassword){
      if(password === confirmpassword){
-      const fetchData = await fetch('http://localhost:8080/signup',{
+      const fetchData = await fetch('https://bookstore-7bu0.onrender.com',{
         method : "post",
         headers : {
           "content-type" : "application/json"
